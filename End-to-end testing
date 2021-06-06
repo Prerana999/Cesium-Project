@@ -1,0 +1,48 @@
+End-to-End Testing Plan:
+
+End-to-end testing is a software testing method that verifies the entire software, including its integration with external interfaces, 
+from beginning to end. End-to-end testing examines the entire software for dependencies, data integrity, and connectivity with other systems, 
+interfaces, and databases in order to simulate a complete production environment.
+
+Significance of End-to-End Testing:
+
+End-to-end testing evaluates the entire system flow and boosts confidence by discovering bugs and boosting subsystem test coverage. 
+Modern software systems are sophisticated and linked, with various subsystems that may be different from those in use today. 
+Failure of any subsystem can bring the entire system down, which is a big risk that can be avoided by End-to-End testing.
+
+Automation Tools and Techniques used in the end-to-end testing:
+
+I have used Selenium Automation tool. Essentially, it's used to automate testing across a variety of web browsers. 
+Selenium WebDriver supports a variety of browsers, including Chrome, Mozilla, Firefox, Safari, and Internet Explorer, and allows you to simply 
+automate browser testing across different browsers. On your computer screen, you can observe live automated tests being run. This tool is more effecient because
+it supports multi-browser compatibilty, open source, language and framework support, easy to implement and flexible.
+
+Selenium also supports a variety of frameworks for automating testing, including Maven, Junit, and TestNG. Jenkins and other CI and CD systems are also supported 
+for automating the deployment process. In this testcase development I have used TestNG framework as it has been introduced with new functionalities that makes it more 
+powerful and easy to use like annotation, parameter support, support data-driver testing etc.
+
+End-to-End Testing Process for React Redux Application:
+The design framework consistes of 3 parts
+1. User Fuctions
+The main features involved in this testing are given below:
+- Type of URL to launch the application, React Redux Application.
+- Add, View and React to Post.
+- Navigate to User Tab.
+- View all users and their respective Post by clicking on the User.
+- Navigate to Notification Tab.
+- Click on Refresh Notification button to view all the recent posts added.
+- Close the application.
+
+2. Conditions
+Conditions to check the validity are given below:
+- To check the post is added successful by giving the respective input.
+- To check the Users and Notification URL navigation.
+
+3. Testcases
+The testcases are included in a separate file.
+
+
+
+
+
+
